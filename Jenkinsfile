@@ -17,10 +17,5 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Deploying') {
-            steps {
-                echo 'Hello World'
-            }
-        }
     }
 }
